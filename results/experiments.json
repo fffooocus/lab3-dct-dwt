@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "imageSize": 512,
+  "levels": 3,
+  "percentages": [
+    5,
+    15,
+    35
+  ],
+  "significanceEpsilon": 1e-9,
+  "psnrPixels": "rounded, clamped to [0,255], cropped to original dimensions",
+  "samples": [
+    {
+      "id": "landscape",
+      "name": "Гірський пейзаж",
+      "width": 512,
+      "height": 512,
+      "experiments": [
+        {
+          "percent": 5,
+          "dct": {
+            "method": "dct",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 6.521759033203125,
+            "psnr": 39.987156124702665
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 5.570606231689453,
+            "psnr": 40.67177900209293
+          }
+        },
+        {
+          "percent": 15,
+          "dct": {
+            "method": "dct",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.6944541931152344,
+            "psnr": 49.71436756342693
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.6198501586914062,
+            "psnr": 50.20793644141315
+          }
+        },
+        {
+          "percent": 35,
+          "dct": {
+            "method": "dct",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 91750,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.043773651123046875,
+            "psnr": 61.71867588610273
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 91750,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.07866287231445312,
+            "psnr": 59.17310560574725
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture",
+      "name": "Текстури й частоти",
+      "width": 512,
+      "height": 512,
+      "experiments": [
+        {
+          "percent": 5,
+          "dct": {
+            "method": "dct",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 11.146873474121094,
+            "psnr": 37.65927289299383
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 146.63555908203125,
+            "psnr": 26.468410615008573
+          }
+        },
+        {
+          "percent": 15,
+          "dct": {
+            "method": "dct",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.25110626220703125,
+            "psnr": 54.13222817378221
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 25.782302856445312,
+            "psnr": 34.01758655252365
+          }
+        },
+        {
+          "percent": 35,
+          "dct": {
+            "method": "dct",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 91750,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.0000152587890625,
+            "psnr": 96.29560291491609
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 91750,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.7389450073242188,
+            "psnr": 49.444682416940694
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Контури та градієнти",
+      "width": 512,
+      "height": 512,
+      "experiments": [
+        {
+          "percent": 5,
+          "dct": {
+            "method": "dct",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 4.1187591552734375,
+            "psnr": 41.98313963568899
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 5,
+            "retained": 13107,
+            "significant": 13107,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 10.689140319824219,
+            "psnr": 37.84137582634788
+          }
+        },
+        {
+          "percent": 15,
+          "dct": {
+            "method": "dct",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.000141143798828125,
+            "psnr": 86.63418558752576
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 15,
+            "retained": 39322,
+            "significant": 39322,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0.08733367919921875,
+            "psnr": 58.7189860433636
+          }
+        },
+        {
+          "percent": 35,
+          "dct": {
+            "method": "dct",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 44463,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0,
+            "psnr": "Infinity"
+          },
+          "dwt": {
+            "method": "dwt",
+            "percent": 35,
+            "retained": 91750,
+            "significant": 53193,
+            "total": 262144,
+            "width": 512,
+            "height": 512,
+            "mse": 0,
+            "psnr": "Infinity"
+          }
+        }
+      ]
+    }
+  ]
+}
